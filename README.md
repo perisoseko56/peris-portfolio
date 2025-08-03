@@ -44,6 +44,13 @@ The goal is to provide potential employers and collaborators a quick overview of
 ---
 
 ## 📂 Folder Structure
+peris-portfolio/
+│── index.html # Main HTML file
+│── style.css # Styling
+│── src.js # JavaScript functionality
+│── images/ # Profile photo and project images
+│── README.md # Project documentation
+
 
 
 
