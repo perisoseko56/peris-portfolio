@@ -209,16 +209,16 @@ document.getElementById('download-cv').addEventListener('click', function(e) {
     
     // Create a simple CV content
     const cvContent = `
-        Your Name - Curriculum Vitae
+        Peris Bosibori - Curriculum Vitae
         
         Contact Information:
-        Email: your.email@example.com
-        Phone: +1 (555) 123-4567
-        Location: Your City, Country
+        Email: poseko56@gmail.com
+        Phone: +254715527406
+        Location: Nairobi, Kenya
         
         Education:
-        Bachelor of Science in Computer Science
-        University Name (2020-2024)
+        Bachelor of Science in Mathematics and Computer Science
+        JKUAT (2019-Current)
         
         Skills:
         - JavaScript (90%)
@@ -234,16 +234,13 @@ document.getElementById('download-cv').addEventListener('click', function(e) {
         [Add your work experience here]
         
         Projects:
-        - E-Commerce Platform
-        - Task Management App
-        - Data Visualization Dashboard
+        Attachement Tracker Website and Mobile App
         
         Interests:
         - Artificial Intelligence
         - Cloud Computing
         - Mobile Development
-        - Open Source
-        - Game Development
+        - Web Development
         - Cybersecurity
     `;
     
@@ -252,7 +249,7 @@ document.getElementById('download-cv').addEventListener('click', function(e) {
     const url = window.URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = 'Your_Name_CV.txt';
+    a.download = 'Oseko_Bosibori_CV.txt';
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
