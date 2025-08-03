@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateX(-50%);
     width: 60px;
     height: 4px;
-    background: linear-gradient(135deg, #2563eb, #f59e0b);
+    background: linear-gradient(135deg, #2563eb,  #f53e0b);
     border-radius: 2px;
 }
 
@@ -218,7 +218,7 @@ h1, h2, h3, h4, h5, h6 {
 .profile-placeholder img {
     width: 450px;
     height: 450px;
-    background: linear-gradient(135deg, #2563eb, #f59e0b);
+    background: linear-gradient(135deg, #2563eb,  #f53e0b);
     display: flex;
     box-shadow: 0 20px 40px rgba(37, 99, 235, 0.3);
     object-fit: cover;
@@ -292,7 +292,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .skill-progress {
     height: 100%;
-    background: linear-gradient(135deg, #2563eb, #f59e0b);
+    background: linear-gradient(135deg, #2563eb);
     border-radius: 4px;
     transition: width 2s ease;
     width: 0;
@@ -386,7 +386,7 @@ h1, h2, h3, h4, h5, h6 {
 .project-image {
     position: relative;
     height: 200px;
-    background: linear-gradient(135deg, #2563eb, #f59e0b);
+    background: linear-gradient(135deg, #2563eb, #f53e0b);
     display: flex;
     align-items: center;
     justify-content: center;
